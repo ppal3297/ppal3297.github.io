@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#nav {
+  min-height: 5vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-title {
+  color: white;
+}
+.nav-links {
+  display: flex;
+  gap: 12px;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+.pankaj-img {
+  height: 200px;
+  width: 200px;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.intro-text {
+  margin: auto 10px;
+}
+
+.btn-link {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
