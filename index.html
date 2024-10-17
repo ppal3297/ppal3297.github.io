@@ -1,67 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style1.css" />
-    <title>portfolio-v2</title>
-  </head>
-  <body>
-    <nav id="nav">
-      <div class="navbar-title"><h3>hi, welcome to my website</h3></div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">about</a></li>
-          <li><a href="#projects">projects</a></li>
-          <li><a href="#experience">experience</a></li>
-          <li><a href="#contact">contact</a></li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | [Your Name]</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>Hello, I'm [Your Name]</h1>
+            <p>Software Developer | Java Enthusiast | Technology Explorer</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a software developer with 4 years of experience specializing in Java and related technologies. I enjoy solving complex problems and working with cutting-edge tools. 
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Java</li>
+            <li>Spring Boot</li>
+            <li>Apache Camel</li>
+            <li>SQL</li>
+            <li>Docker</li>
+            <li>Kubernetes (Openshift)</li>
         </ul>
-      </div>
-    </nav>
-    <section id="home">
-      <div>
-        <img class="pankaj-img" src="assets/pankaj2.png" alt="" />
-      </div>
-      <div class="intro-text">
-        <p>
-          hi, i am pankaj pal. i'm a senior software developer at citicorp
-          services in pune, india. i have completed my undergrad from iit
-          roorkee in metallurgical and materials engineering. i mostly work with
-          java and related technologies in my work but am also comfortable in ui
-          and cloud technologies.
-        </p>
-        <br />
-        <p>
-          find out more about me here:
-          <a
-            class="btn-link"
-            href="/assets/resume_draft_v2.pdf"
-            download="pankajpal-resume.pdf"
-            >resume</a
-          >
-          <a
-            class="btn-link"
-            href="https://www.linkedin.com/in/pankaj32/"
-            target="_blank"
-            >linkedin</a
-          >
-        </p>
-      </div>
     </section>
-    <section id="experiences">
-      <div>
-        <h3>experiences</h3>
-      </div>
-      <p>
-        for the past 3.5 years that i've been at citi, i have worked with two
-        teams. for the first year, i was with equities technology team where i
-        was a part of small team that managed order monitoring system for
-        quantitative trades at citi. since then i'm working in tts technology
-        primarily involved in payment processing team for emea institutional
-        clients. My primary technology stack is java and associated frameworks
-        like spring, spring-boot and apache camel.sometimes i also dabble into
-        ui and devops.
-      </p>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project One</h3>
+                <p>A payment processing service for Citi, built using Spring Boot and Apache Camel.</p>
+            </div>
+            <div class="project">
+                <h3>Project Two</h3>
+                <p>Algorithmic trading system modernization with React and Java Swing.</p>
+            </div>
+        </div>
     </section>
-  </body>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to get in touch via email at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
